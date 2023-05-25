@@ -1,7 +1,7 @@
 Algoritmo "parouimpar"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Silas Melo
-// Descrição   : Testa se o numero é positivo ou negativo ou zero (função)
+// Descrição   : Testa se o numero é par ou ímpar (função)
 // Autor(a)    : Arrys Hanry Nobrega Wanderley
 // Data atual  : 22/05/2023
 Var
@@ -18,6 +18,10 @@ se (num %2) = 0 entao
    escreva("o número ",num," é par")
 senao
    escreva("o número ", num, " é ímpar")
+senao
+   escreva("inválido")
+
+
 fimse
 
 
