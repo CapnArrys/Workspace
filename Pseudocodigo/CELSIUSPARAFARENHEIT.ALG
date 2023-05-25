@@ -1,7 +1,7 @@
 Algoritmo "celsiusparafarenheit"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Silas Melo
-// Descrição   : Testa se o numero é positivo ou negativo ou zero (função)
+// Descrição   : transforma graus celsius para farenheit (função)
 // Autor(a)    : Arrys Hanry Nobrega Wanderley
 // Data atual  : 22/05/2023
 Var
