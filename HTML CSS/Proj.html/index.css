@@ -1,0 +1,252 @@
+div.begin{
+    background-color: #eb5757;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagem {
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 130px;
+}
+  
+ul li {
+    display: inline;
+    margin-right: 30px; 
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+ol{
+    display: inline-block;
+}
+div.circle{
+    background-color: #222;
+    width: fit-content;
+    padding: 15px;
+    color: #f9f9f9;
+}
+div.triangle{
+    background-color: #222;
+    padding: 15px;
+    width: fit-content;
+    color: #f9f9f9;
+}
+div.rectangle{
+    background-color: #222;
+    padding: 15px;
+    width:fit-content;
+    color: #f9f9f9;
+}
+div.box{
+    margin-left: 20px;
+    width: 300px;
+    display: inline-block;
+}
+div.textobox{
+    text-align: center;
+}
+div.black{
+    background-color: #222;
+    width: 350px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.mulher{
+    background-color: #222;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.fundo{
+    background-color: #222;
+    margin-left: 150px;
+    margin-right: 350px;
+    margin-bottom: 5px;
+}
+div.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    height: 85px;
+    color: #f9f9f9;
+    font-size: 18px;
+}
+div.banner a {
+    text-decoration: none;
+    color: #f9f9f9 ;
+    border: 1px solid #eb5757;
+    border-radius: 25px;
+    padding: 8px 15px;
+    background-color: #eb5757;
+    font-size: 16px;
+}
+body {
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cart {
+    width: 50px;
+    height: 32px;
+    margin-top: 17px;
+
+    background-color: black;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+.serving {
+    width: 1300px;
+    height: 430px;
+    left: 0px;
+    top: 149.5px;
+    color: #f9f9f9;
+    gap: 40px;
+}
+.serving h1 {
+    position: absolute;
+    left: 0px;
+    right: 760.5px;
+    margin-left: 180px;
+
+    top: 170px;
+    font-family: Sen, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+.serving p {
+    position: absolute;
+    width: 378.7px;
+    height: 76px;
+    left: 0px;
+    top: 295.39px;
+    margin-left: 180px;
+
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: #f9f9f9;
+}
+.montanha h2 {
+    left: 0px;
+    right: 90px;
+    margin-left: 700px;
+    position: absolute;
+    top: 1780px;
+    font-family: Sen, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #f9f9f9;
+}
+.montanha p {
+    width: 378.7px;
+    height: 76px;
+    left: 0px;
+    top: 1900px;
+    margin-left: 750px;
+    position: absolute;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: #f9f9f9;
+}
+.button {
+    border: 1px solid #f9f9f9;
+    color: #f9f9f9;
+    position: absolute;
+    box-sizing: border-box;
+    top: 1px;
+
+    padding: 6px 26px 6px 26px;
+    border-radius: 5px;
+    font-size: 15px;
+   
+    margin-top: 390px;
+    margin-left: 165px;
+    width: 140px;
+    height: 36px;
+}
+.tagbutton {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+.butao {
+    border: 1px solid #f9f9f9;
+    color: #f9f9f9;
+    position: absolute;
+    box-sizing: border-box;
+    top: 1590px;
+    background-color: #f9f9f9;  
+
+    padding: 6px 26px 6px 26px;
+    border-radius: 5px;
+    font-size: 15px;
+   
+    margin-top: 390px;
+    margin-left: 750px;
+    width: 189px;
+    height: 36px;
+}
+.tagbutao {
+    text-decoration: none;
+    color: #000000;
+}
+div.details{
+    text-decoration: none;
+    color: #f9f9f9 ;
+    border: 1px solid #eb5757;
+    padding: 8px 15px;
+    background-color: #eb5757;
+    font-size: 16px;
+}
+div.product{
+    text-align: center;
+    text-decoration: none;
+    color: #f9f9f9 ;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 8px 10px;
+    background-color: #000000;
+    font-size: 16px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+.geometrica{
+    margin-left: 150px;
+    display: center;
+}
